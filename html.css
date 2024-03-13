@@ -17,9 +17,10 @@ body {
     margin-bottom: 10px;
 }
 
-.screen {
-    width: calc(100% - 9px);
-    padding: 19px;
+
+#screen {
+    width: 280px;
+    padding: 10px;
     font-size: 27px;
     border: none;
     border-radius: 7px;
