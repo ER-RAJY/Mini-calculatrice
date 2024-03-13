@@ -6,7 +6,7 @@ body {
     width: 300px;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgb(66, 0, 0);
+    background-color:#202124;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -16,11 +16,26 @@ body {
     justify-content: space-between;
     margin-bottom: 10px;
 }
+/* .row-f {
+    display: flex;
+    margin-bottom: 10px;
+}
+.row-f .btn1{
+   flex: 1;
+} */
 
+.sec{
+    height: 94px;
+}
+p{
+    color: white;
+}
 
 #screen {
     width: 280px;
+    color: white;
     padding: 10px;
+    background: none;
     font-size: 27px;
     border: none;
     border-radius: 7px;
@@ -30,12 +45,27 @@ button {
     width: 70px;
     height: 59px;
     font-size: 19px;
+    background-color: #3C4043;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    color: white;
+ 
+}
+button:hover {
+    background-color: #5F6368;
 }
 
-button:hover {
-    background-color: #e0e0e0;
+.btnI{
+    background-color: #5F6368;
 }
+.btnI:hover{
+    background-color: #717478;
+}
+.equal{
+  
+    background-color: #719ee6;
+}
+
+
+
+
