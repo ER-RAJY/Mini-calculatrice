@@ -7,3 +7,6 @@ var screen = document.getElementById("screen");
 function Display(a){
     screen.value += a;
 }
+function clearScreen(){
+    screen.value ='';
+}
